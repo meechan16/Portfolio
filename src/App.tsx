@@ -218,7 +218,7 @@ function App() {
             </div>
             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl border border-gray-700">
               <img
-                src="../riscvassembly.png"
+                src="https://drive.google.com/file/d/14I_B6l1_aznhJPs_e0pX1dx3AC85wWCJ/view?usp=sharing"
                 alt="Project 2"
                 className="w-full h-48 object-cover"
               />
