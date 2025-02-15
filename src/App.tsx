@@ -273,11 +273,12 @@ function App() {
           <span className="font-semibold">InfraQR Lab, IIITD</span> - On Campus
         </p>
         <p className="text-gray-300 mb-4">
-          Working on InfraQR, an industry-level project under a college professor, creating a React.js web app with a MySQL database to generate and manage QR codes for lab equipment. Gaining hands-on experience in web development and database integration.
+        <b><u>Guide</u>: Dr. Gaurav Ahuja</b><br></br>
+          Working on InfraQR, an industry-level project under a college professor, creating a Django web app with a MySQL database to generate and manage QR codes for lab equipment. Gaining hands-on experience in web development and database integration.
         </p>
         <div className="flex space-x-2">
           <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-            React.js
+            Django
           </span>
           <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
             MySQL
