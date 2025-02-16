@@ -300,17 +300,29 @@ function App() {
                 <b><u>Guide</u>: Dr. Gaurav Ahuja</b><br></br>
                 Working on InfraQR, an industry-level project under a college professor, creating a Django web app with a MySQL database to generate and manage QR codes for lab equipment. Gaining hands-on experience in web development and database integration.
               </p>
-              <div className="flex space-x-2">
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Django
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  MySQL
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Web Development
-                </span>
-              </div>
+                <div className="flex space-x-2">
+                  <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+                    Python
+                  </span>
+                  <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+                    Django
+                  </span>
+                  <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+                    JavaScript
+                  </span>
+                  <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+                    SQL
+                  </span>
+                  <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+                    Web Developement
+                  </span>
+                </div>
+                <a
+                  href="https://infraqr.com"
+                  className="inline-flex items-center mt-4 text-purple-400 hover:text-purple-300"
+                >
+                  View Project <ExternalLink className="ml-2" size={16} />
+                </a>
             </div>
 
             {/* Internship at InterGlobe Aviation Limited (IndiGo) */}
