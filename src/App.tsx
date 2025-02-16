@@ -79,7 +79,7 @@ function App() {
       <header id="hero" className="bg-gradient-to-r from-purple-900 to-blue-900 text-white pt-24">
   <div className="container mx-auto px-6 py-24 flex justify-center items-center h-full">
     <div className="text-center max-w-3xl">
-      <h1 className="text-5xl font-bold mb-6">Ansh Varma</h1>
+      <h1 className="text-5xl font-bold mb-6">Hey there, I'm Ansh Varma</h1>
       <p className="text-xl mb-4">
         Sophomore at IIIT Delhi<br></br>
         B.Tech in Computer Science and Applied Mathematics
@@ -339,7 +339,7 @@ function App() {
                 </span>
               </div>
             </div>
-                        {/* Lab Intern, InfraQR Lab, IIITD */}
+                        {/* Summer Intern, G4S, Gurgaon */}
                         <div className="p-6 bg-gray-800 rounded-lg border border-gray-700">
               <div className="flex items-center space-x-4 mb-4">
                 <Briefcase className="w-8 h-8 text-purple-400" />
@@ -348,11 +348,12 @@ function App() {
                 </h3>
               </div>
               <p className="text-gray-300 mb-2">
-                <span className="font-semibold">InfraQR Lab, IIITD</span> - On Campus
+                <span className="font-semibold">G4S IT Services</span> - On Campus
               </p>
               <p className="text-gray-300 mb-4">
-                Working on InfraQR, an industry-level project under a college professor, creating a Django web app with a MySQL database to generate and manage QR codes for lab equipment. Gaining hands-on experience in web development and database integration.
-              </p>
+              ERP L1 Support Techniques Basics and fundamentals of MS SQL Databases (including conceptualisation of writing stored procedures, designing tables and queries etc.) <br></br>
+              Basics of Net and Angular programming. <br></br>
+              Basics of working on Google Cloud Platform.              </p>
               <div className="flex space-x-2">
                 <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
                   Django
