@@ -146,12 +146,6 @@ function App() {
                 </p>
                 <div className="flex space-x-2">
                   <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                    HTML
-                  </span>
-                  <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                    CSS
-                  </span>
-                  <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
                     JavaScript
                   </span>
                   <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
@@ -308,7 +302,7 @@ function App() {
                   MySQL
                 </span>
                 <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Web Development
+                  WebDev
                 </span>
               </div>
             </div>
@@ -354,19 +348,19 @@ function App() {
                 <ul>
                   <li>ERP L1 Support Techniques Basics and fundamentals of MS SQL Databases (including conceptualisation of writing stored procedures, designing tables and queries etc.)</li>
                   <li>Basics of Net and Angular programming.</li>
-                  <li>Basics of working on Google Cloud Platform.</li>
+                  <li>Basics of working on Google Cloud Platform.              </li>
                 </ul>
               
               </p>
               <div className="flex space-x-2">
                 <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Django
+                  SQL
                 </span>
                 <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  MySQL
+                  Angular
                 </span>
                 <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Web Development
+                  GCP
                 </span>
               </div>
             </div>
