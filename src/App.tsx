@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full bg-gray-900 z-50 shadow-lg">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-white text-xl font-bold">Ansh Varma</div>
+        <div className="text-white text-xl font-bold">meechan</div>
         
         {/* Mobile Menu Button */}
         <button
@@ -253,21 +253,14 @@ function App() {
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">TypeScript</span>
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Java</span>
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Go</span>
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Shell</span>
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Assembly</span>
 
             {/* Web Development */}
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">React.js</span>
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Django</span>
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Flask</span>
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">HTML</span>
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">CSS</span>
-
             {/* Databases */}
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">SQLAlchemy</span>
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">SQLite</span>
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">MySQL</span>
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">MS SQL</span>
+            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">SQL</span>
 
             {/* Tools & Technologies */}
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">GitHub</span>
@@ -279,7 +272,6 @@ function App() {
 
             {/* Other Technologies */}
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Figma</span>
-            <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Miro</span>
             <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Canva</span>
           </div>
         </div>
@@ -461,7 +453,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-950 text-gray-400 py-8">
         <div className="container mx-auto px-6 text-center">
-          <p>© 2023 Ansh Varma. All rights reserved.</p>
+          <p>© 2025 Ansh Varma. All rights reserved.</p>
         </div>
       </footer>
     </div>
