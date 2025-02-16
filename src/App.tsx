@@ -172,7 +172,7 @@ function App() {
             </div>
             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl border border-gray-700">
               <img
-                src="https://drive.google.com/file/d/14I_B6l1_aznhJPs_e0pX1dx3AC85wWCJ/view?usp=sharing"
+                src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://unsplash.com/photos/turned-on-gray-laptop-computer-cOkpTiJMGzA4I_B6l1_aznhJPs_e0pX1dx3AC85wWCJ/view?usp=sharing"
                 alt="Project 2"
                 className="w-full h-48 object-cover"
               />
