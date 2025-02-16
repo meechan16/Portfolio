@@ -45,97 +45,51 @@ function App() {
       </div>
     </div>
   </header>
-{/* Skills Section */}
-<section className="py-20 bg-gray-800">
+      {/* Skills Section */}
+      <section className="py-20 bg-gray-800">
   <div className="container mx-auto px-6">
-    <h2 className="text-3xl font-bold mb-12 text-center text-white">
-      Technical Skills
-    </h2>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {/* Programming Languages Card */}
-      <div className="p-6 bg-gray-900 rounded-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:scale-105">
-        <Code2 className="w-12 h-12 text-purple-400 mb-4 mx-auto" />
-        <h3 className="text-xl font-semibold mb-4 text-white text-center">
-          Programming Languages
-        </h3>
-        <ul className="space-y-3 text-gray-300">
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/cplusplus.svg" alt="C++" className="w-6 h-6 text-blue-500" />
-            <span>C++</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/python.svg" alt="Python" className="w-6 h-6 text-yellow-500" />
-            <span>Python</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/javascript.svg" alt="JavaScript" className="w-6 h-6 text-yellow-400" />
-            <span>JavaScript/TypeScript</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/java.svg" alt="Java" className="w-6 h-6 text-red-500" />
-            <span>Java</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/go.svg" alt="Go" className="w-6 h-6 text-blue-400" />
-            <span>Go</span>
-          </li>
-        </ul>
-      </div>
+    <h2 className="text-3xl font-bold mb-12 text-center text-white">Technical Skills</h2>
+    <div className="flex flex-wrap justify-center gap-4">
+      {/* Programming Languages */}
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">C</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">C++</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Python</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">JavaScript</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">TypeScript</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Java</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Go</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Shell</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Assembly</span>
 
-      {/* Technologies Card */}
-      <div className="p-6 bg-gray-900 rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-105">
-        <Database className="w-12 h-12 text-blue-400 mb-4 mx-auto" />
-        <h3 className="text-xl font-semibold mb-4 text-white text-center">
-          Technologies
-        </h3>
-        <ul className="space-y-3 text-gray-300">
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/react.svg" alt="React" className="w-6 h-6 text-blue-400" />
-            <span>React</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/nodedotjs.svg" alt="Node.js" className="w-6 h-6 text-green-500" />
-            <span>Node.js</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/mongodb.svg" alt="MongoDB" className="w-6 h-6 text-green-400" />
-            <span>MongoDB</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/git.svg" alt="Git" className="w-6 h-6 text-orange-500" />
-            <span>Git</span>
-          </li>
-        </ul>
-      </div>
+      {/* Web Development */}
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">React.js</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Django</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Flask</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">HTML</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">CSS</span>
 
-      {/* Tools & Frameworks Card */}
-      <div className="p-6 bg-gray-900 rounded-lg border border-gray-700 hover:border-green-500 transition-all duration-300 hover:scale-105">
-        <Terminal className="w-12 h-12 text-green-400 mb-4 mx-auto" />
-        <h3 className="text-xl font-semibold mb-4 text-white text-center">
-          Tools & Frameworks
-        </h3>
-        <ul className="space-y-3 text-gray-300">
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linux.svg" alt="Linux" className="w-6 h-6 text-yellow-500" />
-            <span>Linux</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/docker.svg" alt="Docker" className="w-6 h-6 text-blue-400" />
-            <span>Docker</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/express.svg" alt="Express.js" className="w-6 h-6 text-gray-400" />
-            <span>Express.js</span>
-          </li>
-          <li className="flex items-center space-x-2">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/nextdotjs.svg" alt="Next.js" className="w-6 h-6 text-black dark:text-white" />
-            <span>Next.js</span>
-          </li>
-        </ul>
-      </div>
+      {/* Databases */}
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">SQLAlchemy</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">SQLite</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">MySQL</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">MS SQL</span>
+
+      {/* Tools & Technologies */}
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">GitHub</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Docker</span>
+      {/* Libraries & Frameworks */}
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Numpy</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Pandas</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">TensorFlow</span>
+
+      {/* Other Technologies */}
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Figma</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Miro</span>
+      <span className="px-6 py-3 bg-gray-900 text-purple-300 rounded-full text-lg border border-purple-500 hover:bg-purple-900 transition-colors duration-300">Canva</span>
     </div>
   </div>
 </section>
+
       {/* Projects Section */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-6">
