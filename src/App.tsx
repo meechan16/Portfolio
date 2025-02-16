@@ -351,9 +351,13 @@ function App() {
                 <span className="font-semibold">G4S IT Services</span> - On Campus
               </p>
               <p className="text-gray-300 mb-4">
-              ERP L1 Support Techniques Basics and fundamentals of MS SQL Databases (including conceptualisation of writing stored procedures, designing tables and queries etc.) <br></br>
-              Basics of Net and Angular programming. <br></br>
-              Basics of working on Google Cloud Platform.              </p>
+                <ul>
+                  <li>ERP L1 Support Techniques Basics and fundamentals of MS SQL Databases (including conceptualisation of writing stored procedures, designing tables and queries etc.)</li>
+                  <li>Basics of Net and Angular programming.</li>
+                  <li>Basics of working on Google Cloud Platform.</li>
+                </ul>
+              
+              </p>
               <div className="flex space-x-2">
                 <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
                   Django
