@@ -7,9 +7,6 @@ import {
   Linkedin,
   Mail,
   ExternalLink,
-  Code2,
-  Database,
-  Terminal,
   Award,
   Briefcase,
 } from 'lucide-react';
@@ -75,53 +72,50 @@ function App() {
     <div className="min-h-screen bg-gray-900">
       {/* Navbar */}
       <Navbar />
-
       <header id="hero" className="bg-gradient-to-r from-purple-900 to-blue-900 text-white pt-24">
-  <div className="container mx-auto px-6 py-24 flex justify-center items-center h-full">
-    <div className="text-center max-w-3xl">
-      <h1 className="text-5xl font-bold mb-6">Hey there, I'm Ansh Varma</h1>
-      <p className="text-xl mb-4">
-        Sophomore at IIIT Delhi<br></br>
-        B.Tech in Computer Science and Applied Mathematics
-      </p>
-      <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-        Passionate about building innovative solutions that make a difference. 
-        I specialize in full-stack development, systems programming, and data analysis. 
-        Currently exploring the intersections of technology and social impact through 
-        projects in emergency response systems and infrastructure management.
-      </p>
-      <div className="flex space-x-4 justify-center">
-        <a
-          href="https://github.com/meechan16"
-          className="hover:text-purple-300 transition-colors"
-        >
-          <Github size={24} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/anshvarma16/"
-          className="hover:text-purple-300 transition-colors"
-        >
-          <Linkedin size={24} />
-        </a>
-        <a
-          href="mailto:ansh23101@iiitd.ac.in"
-          className="hover:text-purple-300 transition-colors"
-        >
-          <Mail size={24} />
-        </a>
-        {/* Resume Download Button */}
-        <a
-          href="https://drive.google.com/file/d/1g_zLbAkrxX4Q5KSbXnKlur-zx36Z1dwB/view?usp=sharing" // Replace with the actual path to your resume
-          download="Ansh_Varma_Resume.pdf"
-          className="hover:text-purple-300 transition-colors"
-        >
-          <FileText size={24} />
-        </a>
+      <div className="container mx-auto px-6 py-24 flex flex-col md:flex-row items-center md:items-start h-full">
+        {/* Left Content */}
+        <div className="text-left max-w-3xl md:w-2/3">
+          <h1 className="text-5xl font-bold mb-6">Hey there, I'm Ansh Varma</h1>
+          <p className="text-xl mb-4">
+            Sophomore at IIIT Delhi<br />
+            B.Tech in Computer Science and Applied Mathematics
+          </p>
+          <p className="text-lg text-gray-200 mb-8 leading-relaxed">
+            Passionate about building innovative solutions that make a difference.
+            I specialize in full-stack development, systems programming, and data analysis.
+            Currently exploring the intersections of technology and social impact through
+            projects in emergency response systems and infrastructure management.
+          </p>
+          <div className="flex space-x-4">
+            <a href="https://github.com/meechan16" className="hover:text-purple-300 transition-colors">
+              <Github size={24} />
+            </a>
+            <a href="https://www.linkedin.com/in/anshvarma16/" className="hover:text-purple-300 transition-colors">
+              <Linkedin size={24} />
+            </a>
+            <a href="mailto:ansh23101@iiitd.ac.in" className="hover:text-purple-300 transition-colors">
+              <Mail size={24} />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1g_zLbAkrxX4Q5KSbXnKlur-zx36Z1dwB/view?usp=sharing"
+              download="Ansh_Varma_Resume.pdf"
+              className="hover:text-purple-300 transition-colors"
+            >
+              <FileText size={24} />
+            </a>
+          </div>
+        </div>
+        
+        {/* Right Image Container */}
+        <div className="mt-8 md:mt-0 md:w-1/3 flex justify-center">
+          <img
+            src="../templates/pfp.jpg" // Replace with actual image path
+            className="w-40 h-40 md:w-80 md:h-80 square-full ml-20 rounded-2xl border-4 border-black shadow-lg"
+          />
+        </div>
       </div>
-    </div>
-  </div>
-</header>
-
+    </header>
 
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-gray-900">
