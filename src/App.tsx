@@ -266,101 +266,110 @@ function App() {
       </section>
 
 
-      {/* Experience Section */}
-      <section id="experience" className="py-20 bg-gray-900">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-12 text-center text-white">
-            Experience
-          </h2>
-          <div className="space-y-8">
-            {/* Lab Intern, InfraQR Lab, IIITD */}
-            <div className="p-6 bg-gray-800 rounded-lg border border-gray-700">
-              <div className="flex items-center space-x-4 mb-4">
-                <Briefcase className="w-8 h-8 text-purple-400" />
-                <h3 className="text-xl font-semibold text-white">
-                  Lab Intern
-                </h3>
-              </div>
-              <p className="text-gray-300 mb-2">
-                <span className="font-semibold">InfraQR Lab, IIITD</span> - On Campus
-              </p>
-              <p className="text-gray-300 mb-4">
-                <b><u>Guide</u>: Dr. Gaurav Ahuja</b><br></br>
-                Working on InfraQR, an industry-level project under a college professor, creating a Django web app with a MySQL database to generate and manage QR codes for lab equipment. Gaining hands-on experience in web development and database integration.
-              </p>
-              <div className="flex space-x-2">
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Django
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  MySQL
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  WebDev
-                </span>
-              </div>
-            </div>
-
-            {/* Internship at InterGlobe Aviation Limited (IndiGo) */}
-            <div className="p-6 bg-gray-800 rounded-lg border border-gray-700">
-              <div className="flex items-center space-x-4 mb-4">
-                <Briefcase className="w-8 h-8 text-purple-400" />
-                <h3 className="text-xl font-semibold text-white">
-                  Data Analysis Intern
-                </h3>
-              </div>
-              <p className="text-gray-300 mb-2">
-                <span className="font-semibold">InterGlobe Aviation Limited (IndiGo)</span> - Remote
-              </p>
-              <p className="text-gray-300 mb-4">
-                Conducted data analysis for the in-flight entertainment (IFE) system on Delhi-Goa flights using Python (pandas), focusing on demographic variables like age and gender. Gained insights into corporate operations, flight booking processes, and the role of data analytics in enhancing app performance and user experience.
-              </p>
-              <div className="flex space-x-2">
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Python
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Pandas
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Data Analysis
-                </span>
-              </div>
-            </div>
-                        {/* Summer Intern, G4S, Gurgaon */}
-                        <div className="p-6 bg-gray-800 rounded-lg border border-gray-700">
-              <div className="flex items-center space-x-4 mb-4">
-                <Briefcase className="w-8 h-8 text-purple-400" />
-                <h3 className="text-xl font-semibold text-white">
-                  Summer Intern
-                </h3>
-              </div>
-              <p className="text-gray-300 mb-2">
-                <span className="font-semibold">G4S IT Services</span> - On Campus
-              </p>
-              <p className="text-gray-300 mb-4">
-                <ul>
-                  <li>ERP L1 Support Techniques Basics and fundamentals of MS SQL Databases (including conceptualisation of writing stored procedures, designing tables and queries etc.)</li>
-                  <li>Basics of Net and Angular programming.</li>
-                  <li>Basics of working on Google Cloud Platform.              </li>
-                </ul>
-              
-              </p>
-              <div className="flex space-x-2">
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  SQL
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  Angular
-                </span>
-                <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
-                  GCP
-                </span>
-              </div>
-            </div>
+{/* Experience Section */}
+<section id="experience" className="py-20 bg-gray-900">
+  <div className="container mx-auto px-6">
+    <h2 className="text-3xl font-bold mb-12 text-center text-white">
+      Experience
+    </h2>
+    <div className="space-y-8">
+      {/* Lab Intern, InfraQR Lab, IIITD */}
+      <div className="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <div className="flex justify-between items-center mb-4">
+          <div className="flex items-center space-x-4">
+            <Briefcase className="w-8 h-8 text-purple-400" />
+            <h3 className="text-xl font-semibold text-white">
+              Lab Intern
+            </h3>
           </div>
+          <span className="text-gray-400 text-sm ml-auto">Jan 2025 - Present</span>
         </div>
-      </section>
+        <p className="text-gray-300 mb-2">
+          <span className="font-semibold">InfraQR Lab, IIITD</span> - On Campus
+        </p>
+        <p className="text-gray-300 mb-4">
+          <b><u>Guide</u>: Dr. Gaurav Ahuja</b><br></br>
+          Working on InfraQR, an industry-level project under a college professor, creating a Django web app with a MySQL database to generate and manage QR codes for lab equipment. Gaining hands-on experience in web development and database integration.
+        </p>
+        <div className="flex space-x-2">
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            Django
+          </span>
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            MySQL
+          </span>
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            WebDev
+          </span>
+        </div>
+      </div>
+
+      {/* Internship at InterGlobe Aviation Limited (IndiGo) */}
+      <div className="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <div className="flex justify-between items-center mb-4">
+          <div className="flex items-center space-x-4">
+            <Briefcase className="w-8 h-8 text-purple-400" />
+            <h3 className="text-xl font-semibold text-white">
+              Data Analysis Intern
+            </h3>
+          </div>
+          <span className="text-gray-400 text-sm ml-auto">Jun 2023 - Jul 2023</span>
+        </div>
+        <p className="text-gray-300 mb-2">
+          <span className="font-semibold">InterGlobe Aviation Limited (IndiGo)</span> - Remote
+        </p>
+        <p className="text-gray-300 mb-4">
+          Conducted data analysis for the in-flight entertainment (IFE) system on Delhi-Goa flights using Python (pandas), focusing on demographic variables like age and gender. Gained insights into corporate operations, flight booking processes, and the role of data analytics in enhancing app performance and user experience.
+        </p>
+        <div className="flex space-x-2">
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            Python
+          </span>
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            Pandas
+          </span>
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            Data Analysis
+          </span>
+        </div>
+      </div>
+
+      {/* Summer Intern, G4S, Gurgaon */}
+      <div className="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <div className="flex justify-between items-center mb-4">
+          <div className="flex items-center space-x-4">
+            <Briefcase className="w-8 h-8 text-purple-400" />
+            <h3 className="text-xl font-semibold text-white">
+              Summer Intern
+            </h3>
+          </div>
+          <span className="text-gray-400 text-sm ml-auto">Jun 2022 - Jul 2022</span>
+        </div>
+        <p className="text-gray-300 mb-2">
+          <span className="font-semibold">G4S IT Services</span> - On Campus
+        </p>
+        <p className="text-gray-300 mb-4">
+          <ul>
+            <li>ERP L1 Support Techniques Basics and fundamentals of MS SQL Databases (including conceptualisation of writing stored procedures, designing tables and queries etc.)</li>
+            <li>Basics of .NET and Angular programming.</li>
+            <li>Basics of working on Google Cloud Platform.</li>
+          </ul>
+        </p>
+        <div className="flex space-x-2">
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            SQL
+          </span>
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            Angular
+          </span>
+          <span className="px-3 py-1 bg-purple-900 text-purple-100 rounded-full text-sm">
+            GCP
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Achievements Section */}
       <section id="achievements" className="py-20 bg-gray-800">
