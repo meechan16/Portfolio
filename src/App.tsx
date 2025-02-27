@@ -38,7 +38,7 @@ const Navbar = () => {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
-          {[ 'skills', 'projects', 'experience', 'achievements', 'contact'].map((section) => (
+          {[ 'projects', 'skills', 'experience', 'achievements', 'contact'].map((section) => (
             <button
               key={section}
               onClick={() => scrollToSection(section)}
@@ -53,7 +53,7 @@ const Navbar = () => {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden bg-gray-800 flex flex-col space-y-4 px-6 py-4">
-          {['skills', 'projects', 'experience', 'achievements', 'contact'].map((section) => (
+          {[ 'projects', 'skills', 'experience', 'achievements', 'contact'].map((section) => (
             <button
               key={section}
               onClick={() => scrollToSection(section)}
@@ -111,7 +111,7 @@ function App() {
         <div className="mt-8 md:mt-0 md:w-1/3 flex justify-center">
           <img
             src="/pfp.jpg" // Replace with actual image path
-            className="w-40 h-40 md:w-80 md:h-80 square-full ml-20 rounded-2xl border-4 border-black shadow-lg"
+            className="w-49 h-34 md:w-49 md:h-34 square-full ml-20 rounded-2xl border-4 border-black shadow-lg"
           />
         </div>
       </div>
