@@ -109,11 +109,11 @@ function App() {
         
         {/* Right Image Container */}
         <div className="mt-8 md:mt-0 md:w-1/3 flex justify-center">
-          <img
-            src="/pfp.jpg" // Replace with actual image path
-            className="w-49 h-34 md:w-49 md:h-34 square-full ml-20 rounded-2xl border-4 border-black shadow-lg"
-          />
-        </div>
+  <img
+    src="/pfp.jpg" // Replace with actual image path
+    className="w-32 h-32 md:w-48 md:h-48 rounded-2xl border-2 border-black shadow-lg object-cover"
+  />
+</div>
       </div>
     </header>
 
