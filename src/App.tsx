@@ -172,19 +172,19 @@ function App() {
               projects in emergency response systems and infrastructure management.
             </p>
             <div className="flex space-x-6 animate-fadeInUp animation-delay-600">
-              <a href="https://github.com/meechan16" 
+              <a target="_blank" href="https://github.com/meechan16" 
                 className="hover:text-purple-300 transition-colors transform hover:scale-110">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/anshvarma16/" 
+              <a target="_blank" href="https://www.linkedin.com/in/anshvarma16/" 
                 className="hover:text-purple-300 transition-colors transform hover:scale-110">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:ansh23101@iiitd.ac.in" 
+              <a target="_blank" href="mailto:ansh23101@iiitd.ac.in" 
                 className="hover:text-purple-300 transition-colors transform hover:scale-110">
                 <Mail size={24} />
               </a>
-              <a href="https://drive.google.com/file/d/1g_zLbAkrxX4Q5KSbXnKlur-zx36Z1dwB/view?usp=sharing"
+              <a target="_blank" href="https://drive.google.com/file/d/18R_irJadOhtbPcs4XDg7BwibVEgr63pq/view?usp=sharing"
                 className="hover:text-purple-300 transition-colors transform hover:scale-110">
                 <FileText size={24} />
               </a>
@@ -212,9 +212,23 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard
+              title="InfraQR"
+              description="InfraQR is a smart lab management system that streamlines inventory tracking, financial monitoring, and data organization using QR-based automation."
+              image="./infra.png"
+              technologies={['JavaScript', 'Flask', 'SQLite']}
+              link="https://github.com/Gravitons-IIITD/Comprehensive-Resource-and-Incident-Support-Information-System-2.0"
+            />
+            <ProjectCard
+              title="Pawsh"
+              description="A custom shell in C that executes commands, manages processes, and supports built-in functionalities like navigation and history tracking."
+              image="./pawsh.png"
+              technologies={['JavaScript', 'Flask', 'SQLite']}
+              link="https://github.com/Gravitons-IIITD/Comprehensive-Resource-and-Incident-Support-Information-System-2.0"
+            />
+            <ProjectCard
               title="CRISIS 2.0"
               description="A comprehensive resource and incident support information system for efficient emergency response management."
-              image="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80"
+              image="./crisis.png"
               technologies={['JavaScript', 'Flask', 'SQLite']}
               link="https://github.com/Gravitons-IIITD/Comprehensive-Resource-and-Incident-Support-Information-System-2.0"
             />
